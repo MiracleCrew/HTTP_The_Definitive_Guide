@@ -19,35 +19,25 @@
 #### ✔️ mark down 파일 template
 
 ```
----
-data: 발표 날짜
----
-# [chapter name]
+## Q01. 질문 내용
 
-## question
-<details>
-<summary>Q: 질문내용</summary>
-<div markdown="1">       
 답변
-</div>
-<details>
-<summary>Q: 질문내용</summary>
-<div markdown="1">       
-답변
-</div>
+---
+## Q02. 질문 내용
 
+답변
 ```
 
 #### ✔️ 커밋 컨벤션
 
 - 정리본 업로드 시
   ```
-  Init[chapter02.md]: chater02 요약 정리 추가
+  Init[week01.md]: week01 정리 추가
   ```
 
 - 정리본 수정 시
   ```
-  Modify[chapter02.md]: 무슨 내용 추가
+  Modify[week01.md]: 무슨 내용 추가
 
   - 무슨 부분을 추가 하였음.
   ```
@@ -62,7 +52,7 @@ name: Q&A 등록
 about: 공부하다 공유하고싶은 지식을 질문 형태로 공유합니다.
 title: "[챕터이름] 질문"
 labels: Q&A
-assignees: luminoustone
+assignees: 
 
 ---
 
